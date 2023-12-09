@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.first_image {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.form-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 10px;
+  width: 40%;
+}
+.inputs {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px;
+  background-color: #1f191966;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 35%;
+  color: #ffffff;
+}
+
+.button_login {
+  border-radius: 20px;
+  background-image: linear-gradient(
+    to bottom,
+    /* #7474bf 0%, */ #36a546 71%,
+    lightgreen,
+    green
+  );
+  padding: 10px 20px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+.forgot_password {
+  font-family: "Mulish";
+  font-size: 15px;
+  color: #36a546;
+  /* font-weight: regular; */
+}
+.message {
+  color: #36a546cc;
+  text-align: center;
+}

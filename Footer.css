@@ -1,0 +1,23 @@
+.footer_container {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  justify-content: space-between;
+  align-content: center;
+  background-color: rgb(87, 78, 78);
+  border-radius: 15px;
+}
+.footer_button {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+.home {
+  height: 30px;
+  width: 30px;
+}
+
+.user {
+  height: 30px;
+  width: 30px;
+}

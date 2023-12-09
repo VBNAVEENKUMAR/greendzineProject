@@ -1,0 +1,63 @@
+* {
+  color: white;
+}
+
+.moptro {
+  height: 100px;
+  width: 100px;
+}
+
+.employee_productivity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  margin-top: 20px;
+}
+.inside_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font: normal normal bold 18px/25px Source Sans Pro;
+  letter-spacing: 0.01px;
+  color: #ffffffb3;
+  opacity: 0.84;
+}
+
+.percent {
+  color: #36a546;
+  margin-left: 10px;
+}
+
+.growth_container {
+  background-color: green;
+  border-radius: 20px;
+  height: 10px;
+  width: 10%;
+}
+.two {
+  width: 100%;
+}
+.three {
+  width: 60%;
+}
+.four {
+  width: 20%;
+}
+
+.five {
+  width: 50%;
+}
+.six {
+  width: 70%;
+}
